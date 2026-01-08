@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pera Kahvaltı & Cafe - Kahve molası ver, anın tadını çıkar. Sıcak içeceklerimiz, lezzetli atıştırmalıklarımız ve huzurlu ortamımızla seni bekliyoruz.">
+    <meta name="keywords" content="pera cafe, kahvaltı, cafe, kahve, tatlı, istanbul, breakfast, coffee">
+    <meta name="author" content="Pera Kahvaltı & Cafe">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Pera Kahvaltı & Cafe">
+    <meta property="og:description" content="Kahve molası ver, anın tadını çıkar. Sıcak içeceklerimiz, lezzetli atıştırmalıklarımız ve huzurlu ortamımızla seni bekliyoruz.">
+    <meta property="og:image" content="images/peraCafeIciPhoto.jpeg">
+    <meta property="og:type" content="website">
+    
+    <title>Pera Kahvaltı & Cafe</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/PeraLogo.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">
+                <img src="images/PeraLogo.jpg" alt="Pera Cafe Logo">
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Ana Sayfa</a></li>
+                <li><a href="#about" data-i18n="nav.about">Hakkımızda</a></li>
+                <li><a href="#menu" data-i18n="nav.menu">Menü</a></li>
+                <li><a href="#gallery" data-i18n="nav.gallery">Galeri</a></li>
+                <li><a href="#events" data-i18n="nav.events">Etkinlikler</a></li>
+                <li><a href="#services" data-i18n="nav.services">Hizmetler</a></li>
+                <li><a href="#hours" data-i18n="nav.hours">Çalışma Saatleri</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+                <li><button class="lang-toggle" id="lang-toggle">EN</button></li>
+            </ul>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title" data-i18n="hero.title">PERA KAHVALTI & CAFE</h1>
+            <p class="hero-slogan" data-i18n="hero.slogan">Kahve molası ver, anın tadını çıkar.</p>
+            <p class="hero-description" data-i18n="hero.description">Sıcak içeceklerimiz, lezzetli atıştırmalıklarımız ve huzurlu ortamımızla seni bekliyoruz.</p>
+            <a href="#menu" class="btn btn-primary" data-i18n="hero.cta">Menüyü Keşfet</a>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content slide-left">
+                    <h3 data-i18n="about.subtitle">Pera Kahvaltı & Cafe</h3>
+                    <h2 data-i18n="about.title">Hakkımızda</h2>
+                    <p data-i18n="about.description">
+                        Şehrin kalbinde, huzurlu bir kaçış noktası... Pera Kahvaltı & Cafe olarak, en kaliteli malzemelerle hazırlanan lezzetli kahvaltılarımız, birbirinden özel tatlılarımız ve aromalı içeceklerimizle sizlere unutulmaz anlar yaşatıyoruz. Sıcak ve samimi atmosferimizde kahvenizin tadını çıkarırken, günün stresinden uzaklaşın.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">☕</div>
+                            <h4 data-i18n="about.atmosphere">Huzurlu Atmosfer</h4>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">🍰</div>
+                            <h4 data-i18n="about.quality">Kaliteli Lezzetler</h4>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">💝</div>
+                            <h4 data-i18n="about.service">Özenli Hizmet</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-gallery slide-right">
+                    <div class="about-gallery-item">
+                        <img src="images/peraCafeIciPhoto.jpeg" alt="Pera Cafe İç Mekan" loading="lazy">
+                    </div>
+                    <div class="about-gallery-item">
+                        <img src="images/peraCafeDışBahcePhoto.jpeg" alt="Pera Cafe Dış Bahçe" loading="lazy">
+                    </div>
+                    <div class="about-gallery-item">
+                        <img src="images/peraCafeiçiPhoto2.jpeg" alt="Pera Cafe İç Mekan 2" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu" id="menu">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="menu.title">Menümüz</h2>
+                <p class="section-subtitle" data-i18n="menu.subtitle">Lezzetli Seçenekler</p>
+            </div>
+            
+            <div class="menu-filters fade-in">
+                <button class="menu-filter-btn active" data-category="all" data-i18n="menu.all">Tümü</button>
+                <button class="menu-filter-btn" data-category="breakfast" data-i18n="menu.breakfast">Kahvaltı</button>
+                <button class="menu-filter-btn" data-category="appetizers" data-i18n="menu.appetizers">Aperatifler</button>
+                <button class="menu-filter-btn" data-category="desserts" data-i18n="menu.desserts">Tatlılar</button>
+                <button class="menu-filter-btn" data-category="hot" data-i18n="menu.hotDrinks">Sıcak İçecekler</button>
+                <button class="menu-filter-btn" data-category="cold" data-i18n="menu.coldDrinks">Soğuk İçecekler</button>
+            </div>
+            
+            <div class="menu-grid" id="menu-items">
+                <!-- Menu items will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="gallery.title">Galeri</h2>
+                <p class="section-subtitle" data-i18n="gallery.subtitle">Mekanımızdan Kareler</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item slide-up">
+                    <img src="images/peraCafeIciPhoto.jpeg" alt="Pera Cafe İç Mekan" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/peraCafeiçiPhoto2.jpeg" alt="Pera Cafe İç Mekan 2" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/peraCafeDışBahcePhoto.jpeg" alt="Pera Cafe Dış Bahçe" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/SerpmeKahvaltı.jpeg" alt="Serpme Kahvaltı" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/durumWaffle.jpeg" alt="Dürüm Waffle" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/lotusCakeBox.jpeg" alt="Lotus Cake Box" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/peraCafeiçiPhoto3.jpeg" alt="Pera Cafe İç Mekan 3" loading="lazy">
+                </div>
+                <div class="gallery-item slide-up">
+                    <img src="images/antepfistiklicheescake.jpeg" alt="Antep Fıstıklı Cheesecake" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section events" id="events">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="events.title">Etkinlikler</h2>
+                <p class="section-subtitle" data-i18n="events.subtitle">Özel Anlarınız İçin</p>
+            </div>
+            
+            <div class="events-grid">
+                <!-- Doğum Günü Organizasyonları -->
+                <div class="event-card slide-up">
+                    <div class="event-card-slider" data-slider="birthday">
+                        <div class="slider-wrapper">
+                            <div class="slider-slide active">
+                                <img src="images/birthdayevent1.jpeg" alt="Doğum Günü Organizasyonu" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <img src="images/birthdayEvent2.jpeg" alt="Doğum Günü Organizasyonu 2" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/birthdayEventVideo1.mp4" muted loop playsinline></video>
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/birthdayEventVideo2.mp4" muted loop playsinline></video>
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/happyBirthdayVideo1.mp4" muted loop playsinline></video>
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/happyBirthDayVideo2.mp4" muted loop playsinline></video>
+                            </div>
+                        </div>
+                        <button class="slider-btn slider-prev" aria-label="Önceki">‹</button>
+                        <button class="slider-btn slider-next" aria-label="Sonraki">›</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title" data-i18n="events.birthday.title">Doğum Günü Organizasyonları</h3>
+                        <p class="event-card-description" data-i18n="events.birthday.description">Sevdiklerinizle unutulmaz doğum günü kutlamaları için özel etkinlik alanımız ve organizasyon hizmetimizle yanınızdayız.</p>
+                    </div>
+                </div>
+                
+                <!-- Workshop Etkinlikleri -->
+                <div class="event-card slide-up">
+                    <div class="event-card-slider" data-slider="workshop">
+                        <div class="slider-wrapper">
+                            <div class="slider-slide active">
+                                <img src="images/MiniCakeCookieWorkshopPhoto.jpeg" alt="Workshop Etkinlikleri" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/MiniCakeCookieWorkshopVideo.mp4" muted loop playsinline></video>
+                            </div>
+                        </div>
+                        <button class="slider-btn slider-prev" aria-label="Önceki">‹</button>
+                        <button class="slider-btn slider-next" aria-label="Sonraki">›</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title" data-i18n="events.workshop.title">Workshop Etkinlikleri</h3>
+                        <p class="event-card-description" data-i18n="events.workshop.description">Mini pasta ve kurabiye atölyelerimizle eğlenceli ve öğretici deneyimler yaşayın.</p>
+                    </div>
+                </div>
+                
+                <!-- Etkinlik Salonu -->
+                <div class="event-card slide-up">
+                    <div class="event-card-slider" data-slider="eventHall">
+                        <div class="slider-wrapper">
+                            <div class="slider-slide active">
+                                <img src="images/perCafeEventSalonu.jpeg" alt="Etkinlik Salonu" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <img src="images/peraCafeIciPhoto.jpeg" alt="Cafe İç Mekan" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <img src="images/peraCafeiçiPhoto2.jpeg" alt="Cafe İç Mekan 2" loading="lazy">
+                            </div>
+                            <div class="slider-slide">
+                                <video src="images/peraCafeIciVideo.mp4" muted loop playsinline></video>
+                            </div>
+                        </div>
+                        <button class="slider-btn slider-prev" aria-label="Önceki">‹</button>
+                        <button class="slider-btn slider-next" aria-label="Sonraki">›</button>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div class="event-card-content">
+                        <h3 class="event-card-title" data-i18n="events.eventHall.title">Etkinlik Salonu</h3>
+                        <p class="event-card-description" data-i18n="events.eventHall.description">Özel günleriniz için tam donanımlı etkinlik salonumuzla hizmetinizdeyiz.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="events-cta fade-in">
+                <a href="https://wa.me/905434034463?text=Merhaba,%20rezervasyon%20yapmak%20istiyorum." target="_blank" rel="noopener" class="btn btn-outline" data-i18n="events.cta">Rezervasyon İçin Bizi Arayın</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="services.title">Hizmetlerimiz</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Size Özel Ayrıcalıklar</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-category slide-up">
+                    <h3 class="service-category-title" data-i18n="services.categories.serviceOptions">Hizmet Seçenekleri</h3>
+                    <div class="service-items">
+                        <span class="service-item" data-i18n="services.items.outdoor">Açık Hava Bölümü</span>
+                        <span class="service-item" data-i18n="services.items.contactless">Temassız Teslimat</span>
+                        <span class="service-item" data-i18n="services.items.delivery">Adrese Servis</span>
+                        <span class="service-item" data-i18n="services.items.curbside">Arabaya Servis</span>
+                        <span class="service-item" data-i18n="services.items.dineIn">Gerçek Mekanda Hizmet</span>
+                        <span class="service-item" data-i18n="services.items.takeout">Paket Servisi</span>
+                        <span class="service-item" data-i18n="services.items.indoorService">İçeride Servis</span>
+                    </div>
+                </div>
+                
+                <div class="service-category slide-up">
+                    <h3 class="service-category-title" data-i18n="services.categories.highlights">Öne Çıkanlar</h3>
+                    <div class="service-items">
+                        <span class="service-item" data-i18n="services.items.liveMusic">Canlı Müzik</span>
+                        <span class="service-item" data-i18n="services.items.greatCoffee">Harika Kahveler</span>
+                        <span class="service-item" data-i18n="services.items.greatDesserts">Harika Tatlılar</span>
+                        <span class="service-item" data-i18n="services.items.terrace">Terasta Oturma Alanı</span>
+                        <span class="service-item" data-i18n="services.items.teaMenu">Zengin Çay Menüsü</span>
+                    </div>
+                </div>
+                
+                <div class="service-category slide-up">
+                    <h3 class="service-category-title" data-i18n="services.categories.offerings">Sunulanlar</h3>
+                    <div class="service-items">
+                        <span class="service-item" data-i18n="services.items.snacks">Atıştırmalık Yemekler</span>
+                        <span class="service-item" data-i18n="services.items.halal">Helal Yemekler</span>
+                        <span class="service-item" data-i18n="services.items.coffee">Kahve</span>
+                    </div>
+                </div>
+                
+                <div class="service-category slide-up">
+                    <h3 class="service-category-title" data-i18n="services.categories.atmosphere">Atmosfer</h3>
+                    <div class="service-items">
+                        <span class="service-item" data-i18n="services.items.casual">Gündelik</span>
+                        <span class="service-item" data-i18n="services.items.cozy">Rahat</span>
+                        <span class="service-item" data-i18n="services.items.quiet">Sessiz</span>
+                    </div>
+                </div>
+                
+                <div class="service-category slide-up">
+                    <h3 class="service-category-title" data-i18n="services.categories.payment">Ödeme Yöntemleri</h3>
+                    <div class="service-items">
+                        <span class="service-item" data-i18n="services.items.card">Banka Kartı</span>
+                        <span class="service-item" data-i18n="services.items.credit">Kredi Kartı</span>
+                        <span class="service-item" data-i18n="services.items.nfc">NFC Mobil Ödeme</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="section hours" id="hours">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="hours.title">Çalışma Saatleri</h2>
+                <p class="section-subtitle" data-i18n="hours.subtitle">Her Gün Sizinleyiz</p>
+            </div>
+            
+            <div class="hours-grid">
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.monday">Pazartesi</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.tuesday">Salı</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.wednesday">Çarşamba</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.thursday">Perşembe</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.friday">Cuma</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card slide-up">
+                    <div class="hours-day" data-i18n="hours.days.saturday">Cumartesi</div>
+                    <div class="hours-time" data-i18n="hours.weekday">07:30 - 00:00</div>
+                </div>
+                <div class="hours-card sunday slide-up">
+                    <div class="hours-day" data-i18n="hours.days.sunday">Pazar</div>
+                    <div class="hours-time" data-i18n="hours.sunday">09:30 - 00:00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title" data-i18n="contact.title">İletişim</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Bize Ulaşın</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info slide-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.address">Adres</h4>
+                            <p>
+                                <a href="https://maps.app.goo.gl/cJZ6Y91VQiowoeVe8" target="_blank" rel="noopener">
+                                    Haritada Görüntüle →
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.social">Sosyal Medya</h4>
+                            <div class="contact-social">
+                                <a href="https://www.instagram.com/perakahvalticafe/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                                    📸
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map slide-right">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.2!2d28.9!3d41.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAyJzI0LjAiTiAyOMKwNTQnMDAuMCJF!5e0!3m2!1str!2str!4v1704000000000!5m2!1str!2str"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Pera Cafe Konum">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>PERA KAHVALTI & CAFE</h3>
+                    <p data-i18n="hero.description">Sıcak içeceklerimiz, lezzetli atıştırmalıklarımız ve huzurlu ortamımızla seni bekliyoruz.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Menü</h4>
+                    <ul>
+                        <li><a href="#about" data-i18n="nav.about">Hakkımızda</a></li>
+                        <li><a href="#menu" data-i18n="nav.menu">Menü</a></li>
+                        <li><a href="#gallery" data-i18n="nav.gallery">Galeri</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Hizmetler</h4>
+                    <ul>
+                        <li><a href="#events" data-i18n="nav.events">Etkinlikler</a></li>
+                        <li><a href="#services" data-i18n="nav.services">Hizmetler</a></li>
+                        <li><a href="#hours" data-i18n="nav.hours">Çalışma Saatleri</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/perakahvalticafe/" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a href="https://maps.app.goo.gl/cJZ6Y91VQiowoeVe8" target="_blank" rel="noopener">Konum</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 Pera Kahvaltı & Cafe. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <video src="" id="lightbox-video" controls></video>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/translations.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
