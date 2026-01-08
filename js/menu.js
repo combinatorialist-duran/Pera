@@ -79,25 +79,6 @@ class MenuManager {
         return categoryOrderMap[category] || 999;
     }
 
-    filterProducts() {
-        if (this.currentCategory === 'all') {
-            // Tüm ürünleri kategori sırasına göre sırala
-            return [...this.products].sort((a, b) => {
-                const categoryA = this.currentLang === 'tr' ? a.category : a.category_en;
-                const categoryB = this.currentLang === 'tr' ? b.category : b.category_en;
-                const orderA = this.getCategoryOrder(categoryA);
-                const orderB = this.getCategoryOrder(categoryB);
-                return orderA - orderB;
-            });
-        }
-        
-        return this.products.filter(product => {
-            const productCategory = this.currentLang === 'tr' ? product.category : product.category_en;
-            const categoryKey = this.getCategoryKey(productCategory);
-            return categoryKey === this.currentCategory;
-        });
-    }
-
     createProductCard(product) {
         const name = this.currentLang === 'tr' ? product.name : product.name_en;
         const description = this.currentLang === 'tr' ? product.description : product.description_en;
@@ -118,6 +99,25 @@ class MenuManager {
         `;
         
         return card;
+    }
+
+    filterProducts() {
+        if (this.currentCategory === 'all') {
+            // Tüm ürünleri kategori sırasına göre sırala
+            return [...this.products].sort((a, b) => {
+                const categoryA = this.currentLang === 'tr' ? a.category : a.category_en;
+                const categoryB = this.currentLang === 'tr' ? b.category : b.category_en;
+                const orderA = this.getCategoryOrder(categoryA);
+                const orderB = this.getCategoryOrder(categoryB);
+                return orderA - orderB;
+            });
+        }
+        
+        return this.products.filter(product => {
+            const productCategory = this.currentLang === 'tr' ? product.category : product.category_en;
+            const categoryKey = this.getCategoryKey(productCategory);
+            return categoryKey === this.currentCategory;
+        });
     }
 
     renderMenu() {
