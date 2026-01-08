@@ -604,6 +604,50 @@
             "description_en": "Cheese and ham toast",
             "category": "Kahvaltı",
             "category_en": "Breakfast"
+        },
+        {
+            "id": 56,
+            "name": "Trileçe",
+            "name_en": "Trilece",
+            "price": 160,
+            "image_path": "images/trilece.jpeg",
+            "description": "Üç farklı sütle hazırlanan, karamelli sosuyla hafif ve sütlü klasik Trileçe tatlısı",
+            "description_en": "Classic Trilece dessert made with three types of milk and topped with rich caramel sauce",
+            "category": "Tatlılar",
+            "category_en": "Desserts"
+        },
+        {
+            "id": 57,
+            "name": "Ice Vanilya Latte",
+            "name_en": "Iced Vanilla Latte",
+            "price": 160,
+            "image_path": "images/IceLatte.jpeg",
+            "description": "Vanilya aromalı buz gibi serinletici latte",
+            "description_en": "Ice cold refreshing latte with vanilla flavor",
+            "category": "Soğuk İçecekler",
+            "category_en": "Cold Drinks"
+        },
+        {
+            "id": 58,
+            "name": "Ice Karamel Latte",
+            "name_en": "Iced Caramel Latte",
+            "price": 160,
+            "image_path": "images/IceLatte.jpeg",
+            "description": "Karamel şurubu ile hazırlanan buzlu serinletici latte",
+            "description_en": "Ice cold refreshing latte prepared with caramel syrup",
+            "category": "Soğuk İçecekler",
+            "category_en": "Cold Drinks"
+        },
+        {
+            "id": 59,
+            "name": "Ice Fındık Latte",
+            "name_en": "Iced Hazelnut Latte",
+            "price": 160,
+            "image_path": "images/IceLatte.jpeg",
+            "description": "Fındık aromalı buz gibi özel latte",
+            "description_en": "Ice cold special latte with hazelnut flavor",
+            "category": "Soğuk İçecekler",
+            "category_en": "Cold Drinks"
         }
     ]
 }
