@@ -18,7 +18,7 @@ class PeraCafe {
         this.updateContent();
     }
 
-    // Language Management
+    // Language Management 
     setupLanguage() {
         const langBtn = document.getElementById('lang-toggle');
         if (langBtn) {
