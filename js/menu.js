@@ -63,9 +63,32 @@ class MenuManager {
         return categoryMap[category] || 'all';
     }
 
+    getCategoryOrder(category) {
+        const categoryOrderMap = {
+            'Kahvaltı': 1,
+            'Breakfast': 1,
+            'Aperatifler': 2,
+            'Appetizers': 2,
+            'Tatlılar': 3,
+            'Desserts': 3,
+            'Sıcak İçecekler': 4,
+            'Hot Drinks': 4,
+            'Soğuk İçecekler': 5,
+            'Cold Drinks': 5
+        };
+        return categoryOrderMap[category] || 999;
+    }
+
     filterProducts() {
         if (this.currentCategory === 'all') {
-            return this.products;
+            // Tüm ürünleri kategori sırasına göre sırala
+            return [...this.products].sort((a, b) => {
+                const categoryA = this.currentLang === 'tr' ? a.category : a.category_en;
+                const categoryB = this.currentLang === 'tr' ? b.category : b.category_en;
+                const orderA = this.getCategoryOrder(categoryA);
+                const orderB = this.getCategoryOrder(categoryB);
+                return orderA - orderB;
+            });
         }
         
         return this.products.filter(product => {
