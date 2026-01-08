@@ -105,8 +105,8 @@
             "name_en": "Traditional Breakfast (2 Persons)",
             "price": 1100,
             "image_path": "images/SerpmeKahvaltı.jpeg",
-            "description": "Zengin içerikli geleneksel Türk kahvaltısı. Kişi başı 550₺ | Kahvaltı küver ücreti: 200₺",
-            "description_en": "Rich traditional Turkish breakfast. Per person 550₺ | Breakfast cover charge: 200₺",
+            "description": "Zengin içerikli geleneksel Türk kahvaltısı. Kişi başı 550₺<br>Kahvaltı küver ücreti: 200₺<br><strong>Türk Kahvesi ikramımızdır.</strong>",
+            "description_en": "Rich traditional Turkish breakfast. Per person 550₺ <br> Breakfast cover charge: 200₺<br><strong>Turkish Coffee is free.</strong>",
             "category": "Kahvaltı",
             "category_en": "Breakfast"
         },
@@ -712,6 +712,28 @@
             "image_path": "images/coolLime.jpeg",
             "description": "Taze limon ve nane ile hazırlanan ferahlatıcı buzlu içecek",
             "description_en": "Refreshing ice cold drink prepared with fresh lime and mint",
+            "category": "Soğuk İçecekler",
+            "category_en": "Cold Drinks"
+        },
+        {
+            "id": 66,
+            "name": "Çilekli Milkshake",
+            "name_en": "Strawberry Milkshake",
+            "price": 150,
+            "image_path": "images/cilekliMilkshake.jpeg",
+            "description": "Taze çileklerle hazırlanan, krem şanti ile süslenmiş kremamsı milkshake",
+            "description_en": "Creamy milkshake prepared with fresh strawberries, topped with whipped cream",
+            "category": "Soğuk İçecekler",
+            "category_en": "Cold Drinks"
+        },
+        {
+            "id": 67,
+            "name": "Muzlu Milkshake",
+            "name_en": "Banana Milkshake",
+            "price": 150,
+            "image_path": "images/muzluMilkshake.jpeg",
+            "description": "Taze muzlarla hazırlanan, krem şanti ve muz dilimleri ile süslenmiş kremamsı milkshake",
+            "description_en": "Creamy milkshake prepared with fresh bananas, topped with whipped cream and banana slices",
             "category": "Soğuk İçecekler",
             "category_en": "Cold Drinks"
         }
