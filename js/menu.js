@@ -101,7 +101,7 @@ class MenuManager {
         return card;
     }
 
-    filterProducts() {
+    filterProducts() { 
         if (this.currentCategory === 'all') {
             // Tüm ürünleri kategori sırasına göre sırala
             return [...this.products].sort((a, b) => {
