@@ -582,6 +582,28 @@
             "description_en": "Orange flavored fruit soda",
             "category": "Soğuk İçecekler",
             "category_en": "Cold Drinks"
+        },
+        {
+            "id": 54,
+            "name": "Menemen",
+            "name_en": "Menemen",
+            "price": 200,
+            "image_path": "images/menemen.jpeg",
+            "description": "Mevsiminde yapılmış domatesli yumurta",
+            "description_en": "Tomato-egg dish prepared in season",
+            "category": "Kahvaltı",
+            "category_en": "Breakfast"
+        },
+        {
+            "id": 55,
+            "name": "Sucuklu Kaşarlı Tost",
+            "name_en": "Cheese and Ham Toast",
+            "price": 190,
+            "image_path": "images/SucukluKasarliTost.jpeg",
+            "description": "Sucuklu kaşarlı tost",
+            "description_en": "Cheese and ham toast",
+            "category": "Kahvaltı",
+            "category_en": "Breakfast"
         }
     ]
 }
