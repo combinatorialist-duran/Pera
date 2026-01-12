@@ -105,8 +105,8 @@
             "name_en": "Traditional Breakfast (2 Persons)",
             "price": 1100,
             "image_path": "images/SerpmeKahvaltı.jpeg",
-            "description": "Zengin içerikli geleneksel Türk kahvaltısı. Kişi başı 550₺<br>Kahvaltı küver ücreti: 200₺<br><strong>Türk Kahvesi ikramımızdır.</strong>",
-            "description_en": "Rich traditional Turkish breakfast. Per person 550₺ <br> Breakfast cover charge: 200₺<br><strong>Turkish Coffee is free.</strong>",
+            "description": "Zengin içerikli geleneksel Türk kahvaltısı. Kişi başı 550₺<br>Kahvaltı küver ücreti: 200₺<br><strong>Sınırsız çay ikramımızdır.</strong><br><strong>Türk Kahvesi ikramımızdır.</strong>",
+            "description_en": "Rich traditional Turkish breakfast. Per person 550₺ <br> Breakfast cover charge: 200₺<br><strong>Unlimited tea is free.</strong><br><strong>Turkish Coffee is free.</strong>",
             "category": "Kahvaltı",
             "category_en": "Breakfast"
         },
@@ -116,8 +116,8 @@
             "name_en": "Breakfast Plate",
             "price": 300,
             "image_path": "images/kahvaltıTabağı.jpeg",
-            "description": "Tek kişilik zengin kahvaltı tabağı",
-            "description_en": "Rich breakfast plate for one person",
+            "description": "Tek kişilik zengin kahvaltı tabağı<br><strong>2 adet çay ikramımızdır.</strong>",
+            "description_en": "Rich breakfast plate for one person<br><strong>2 cups of tea are included.</strong>",
             "category": "Kahvaltı",
             "category_en": "Breakfast"
         },
@@ -736,6 +736,83 @@
             "description_en": "Creamy milkshake prepared with fresh bananas, topped with whipped cream and banana slices",
             "category": "Soğuk İçecekler",
             "category_en": "Cold Drinks"
+        },
+        {
+            "id": 68,
+            "name": "Soğuk Sandviç",
+            "name_en": "Cold Sandwich",
+            "price": 90,
+            "image_path": "images/sogukSandvic.jpeg",
+            "description": "Taze malzemelerle hazırlanan soğuk sandviç",
+            "description_en": "Cold sandwich prepared with fresh ingredients",
+            "category": "Kahvaltı",
+            "category_en": "Breakfast"
+        },
+        {
+            "id": 69,
+            "name": "Menengiç Kahvesi",
+            "name_en": "Menengic Coffee",
+            "price": 120,
+            "image_path": "images/menengicKahvesi.jpeg",
+            "description": "Geleneksel menengiç kahvesi, terebinth tohumlarından hazırlanan özel kahve",
+            "description_en": "Traditional menengic coffee, special coffee prepared from terebinth seeds",
+            "category": "Sıcak İçecekler",
+            "category_en": "Hot Drinks"
+        },
+        {
+            "id": 70,
+            "name": "Ada Çayı",
+            "name_en": "Sage Tea",
+            "price": 140,
+            "image_path": "images/adaCayi.jpeg",
+            "description": "Doğal ada çayı yapraklarından demlenen ferahlatıcı bitki çayı",
+            "description_en": "Refreshing herbal tea brewed from natural sage leaves",
+            "category": "Sıcak İçecekler",
+            "category_en": "Hot Drinks"
+        },
+        {
+            "id": 71,
+            "name": "Portakal Çayı",
+            "name_en": "Orange Tea",
+            "price": 140,
+            "image_path": "images/portakalCayi.jpeg",
+            "description": "Taze portakal kabuğu ve bitki çayı ile hazırlanan aromatik sıcak çay",
+            "description_en": "Aromatic hot tea prepared with fresh orange peel and herbal tea",
+            "category": "Sıcak İçecekler",
+            "category_en": "Hot Drinks"
+        },
+        {
+            "id": 72,
+            "name": "Kaşarlı Omlet",
+            "name_en": "Cheese Omelet",
+            "price": 200,
+            "image_path": "images/kasarliOmlet.jpeg",
+            "description": "Erimiş kaşar peyniri ile hazırlanan doyurucu ve lezzetli omlet",
+            "description_en": "Satisfying and delicious omelet prepared with melted cheese",
+            "category": "Kahvaltı",
+            "category_en": "Breakfast"
+        },
+        {
+            "id": 73,
+            "name": "Omlet",
+            "name_en": "Omelet",
+            "price": 180,
+            "image_path": "images/omlet.jpeg",
+            "description": "Taze yumurta ile hazırlanan klasik omlet",
+            "description_en": "Classic omelet prepared with fresh eggs",
+            "category": "Kahvaltı",
+            "category_en": "Breakfast"
+        },
+        {
+            "id": 74,
+            "name": "Çilekli Magnolya",
+            "name_en": "Strawberry Magnolia",
+            "price": 180,
+            "image_path": "images/cilekliMagnolya.jpeg",
+            "description": "Taze çilekler ve kremalı magnolia katmanlarıyla hazırlanan özel tatlı",
+            "description_en": "Special dessert prepared with fresh strawberries and creamy magnolia layers",
+            "category": "Tatlılar",
+            "category_en": "Desserts"
         }
     ]
 }
