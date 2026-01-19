@@ -813,6 +813,39 @@
             "description_en": "Special dessert prepared with fresh strawberries and creamy magnolia layers",
             "category": "Tatlılar",
             "category_en": "Desserts"
+        },
+        {
+            "id": 75,
+            "name": "Mocha",
+            "name_en": "Mocha",
+            "price": 170,
+            "image_path": "images/mocha.jpeg",
+            "description": "Espresso, süt ve çikolata uyumuyla hazırlanan sıcak mocha",
+            "description_en": "Hot mocha made with espresso, steamed milk and chocolate",
+            "category": "Sıcak İçecekler",
+            "category_en": "Hot Drinks"
+        },
+        {
+            "id": 76,
+            "name": "White Mocha",
+            "name_en": "White Mocha",
+            "price": 170,
+            "image_path": "images/whiteMocha.jpeg",
+            "description": "Beyaz çikolata, espresso ve sütle hazırlanan kremamsı mocha",
+            "description_en": "Creamy mocha prepared with white chocolate, espresso and milk",
+            "category": "Sıcak İçecekler",
+            "category_en": "Hot Drinks"
+        },
+        {
+            "id": 77,
+            "name": "San Sebastian",
+            "name_en": "San Sebastian",
+            "price": 220,
+            "image_path": "images/sanSebastian.jpeg",
+            "description": "Karamelize üst katmanlı, akışkan iç dolgulu San Sebastian cheesecake",
+            "description_en": "San Sebastian cheesecake with caramelized top and creamy center",
+            "category": "Tatlılar",
+            "category_en": "Desserts"
         }
     ]
 }
